@@ -13,8 +13,9 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	overflow-x: hidden;
 }
+
+
 
 ul li {
 	list-style: none;
@@ -78,6 +79,7 @@ ul.menu li {
 
 .icon-size {
 	font-size: 2.3em;
+	display: block !important;
 }
 
 ul.socials li {
@@ -148,6 +150,10 @@ ul.socials li a {
 
 @media (min-width: 320px) and (max-width: 490px) {
 
+	html {
+		overflow-x: hidden;
+	}
+
 	.col {
 		height: 100vh;
 	}
@@ -183,6 +189,11 @@ ul.socials li a {
 }
 
 @media (min-width: 491px) and (max-width: 767px) {
+
+	html {
+		overflow-x: hidden;
+	}
+
 	.side-bar-content {
 		position: fixed;
 		left: 10px;
@@ -194,7 +205,7 @@ ul.socials li a {
 	} 
 
 	ul.socials li {
-		margin-right: 0px;
+		margin-right: 5px;
 	}
 
 	ul.socials li a {

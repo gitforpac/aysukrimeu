@@ -2,12 +2,12 @@ import React from 'react';
 
 const Content = () => {
 	return(
-		<div class="col-9 content-wrap">
-				<div class="sideframe-1"></div>
-				<div class="sideframe-2"></div>
-				<div class="poem-wrap">
-					<h2 class="poem-t"><strong>"Ikaw"</strong></h2>
-					<p class="poem-s">
+		<div className="col-9 content-wrap">
+				<div className="sideframe-1"></div>
+				<div className="sideframe-2"></div>
+				<div className="poem-wrap">
+					<h2 className="poem-t"><strong>"Ikaw"</strong></h2>
+					<p className="poem-s">
 					Ikaw! ikaw nga cgeg gawas sakung hunahuna.<br/>
 					Grabe cge lang ta ani og tama,<br/>
 					Apan sa imong ka gwapa ako natulala.<br/>
