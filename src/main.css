@@ -148,10 +148,10 @@ ul.socials li a {
 
 /*  MEDIA QUERIES  */
 
-@media (min-width: 320px) and (max-width: 490px) {
-
-	html {
-		overflow-x: hidden;
+@media (min-width: 240px) and (max-width: 359px) {
+	
+	* {
+		overflow-x: hidden !important;
 	}
 
 	.col {
@@ -160,7 +160,7 @@ ul.socials li a {
   
   .poem-wrap {
 		margin: 30px auto;
-		padding-left: 20px;
+		padding-left: 0px;
 		text-align: left;
 	}
 
@@ -185,12 +185,99 @@ ul.socials li a {
 		background-size: cover;
 	}
 
+	ul.menu {
+		line-height: auto;
+	}
+
+	ul.menu li a {
+		font-size: 0.9em;
+	} 
+
+	ul.socials li {
+		margin-right: 5px;
+	}
+
+	ul.socials li a {
+		font-size: 0.8em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	.font-ls-gray {
+		font-size: 0.8em;
+	}
+
+}
+
+@media (min-width: 360px) and (max-width: 490px) {
+
+	* {
+		overflow-x: hidden !important;
+	}
+
+	.col {
+		height: 100vh;
+	}
+  
+  .poem-wrap {
+		margin: 30px auto;
+		padding-left: 30px;
+		text-align: left;
+	}
+
+	.sideframe-1 {
+		margin-top: 0px;
+		height: 35px;
+		width: 100%;
+		background: url('./assets/img/frame22.png');
+		background-repeat: repeat-x;
+	}
+
+	.sideframe-2 {
+		display: none;
+	}
+
+	.content-wrap {
+		padding-top: 20px;
+		min-width: 100% !important;
+		background: url('./assets/img/bg-mobile.png');
+		background-repeat: no-repeat;
+		backhround-position: center;
+		background-size: cover;
+	}
+
+	ul.menu {
+		line-height: auto;
+	}
+
+	ul.menu li a {
+		font-size: 0.9em;
+	} 
+
+	ul.socials li {
+		margin-right: 5px;
+	}
+
+	ul.socials li a {
+		font-size: 0.8em;
+	}
+
+	h3 {
+		font-size: 1.4em;
+	}
+
+	.font-ls-gray {
+		font-size: 0.8em;
+	}
+
   
 }
 
 @media (min-width: 491px) and (max-width: 767px) {
 
-	html {
+	* {
 		overflow-x: hidden;
 	}
 
